@@ -14,6 +14,7 @@
 		21D053F61B3E3C3900DEA85B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21D053F51B3E3C3900DEA85B /* Images.xcassets */; };
 		21D053F91B3E3C3900DEA85B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21D053F71B3E3C3900DEA85B /* LaunchScreen.xib */; };
 		21D054051B3E3C3900DEA85B /* SPActionSheetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21D054041B3E3C3900DEA85B /* SPActionSheetTests.m */; };
+		21DAA82B1B3E51A800BD1243 /* SPActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 21DAA82A1B3E51A800BD1243 /* SPActionSheet.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		21D053FE1B3E3C3900DEA85B /* SPActionSheetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SPActionSheetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		21D054031B3E3C3900DEA85B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		21D054041B3E3C3900DEA85B /* SPActionSheetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPActionSheetTests.m; sourceTree = "<group>"; };
+		21DAA8291B3E51A800BD1243 /* SPActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPActionSheet.h; sourceTree = "<group>"; };
+		21DAA82A1B3E51A800BD1243 /* SPActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPActionSheet.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		21D053E71B3E3C3900DEA85B /* SPActionSheet */ = {
 			isa = PBXGroup;
 			children = (
+				21D0540E1B3E3C6100DEA85B /* SPActionSheet */,
 				21D053EC1B3E3C3900DEA85B /* AppDelegate.h */,
 				21D053ED1B3E3C3900DEA85B /* AppDelegate.m */,
 				21D053EF1B3E3C3900DEA85B /* ViewController.h */,
@@ -117,6 +121,15 @@
 				21D054031B3E3C3900DEA85B /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		21D0540E1B3E3C6100DEA85B /* SPActionSheet */ = {
+			isa = PBXGroup;
+			children = (
+				21DAA8291B3E51A800BD1243 /* SPActionSheet.h */,
+				21DAA82A1B3E51A800BD1243 /* SPActionSheet.m */,
+			);
+			path = SPActionSheet;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,6 +232,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21DAA82B1B3E51A800BD1243 /* SPActionSheet.m in Sources */,
 				21D053F11B3E3C3900DEA85B /* ViewController.m in Sources */,
 				21D053EE1B3E3C3900DEA85B /* AppDelegate.m in Sources */,
 				21D053EB1B3E3C3900DEA85B /* main.m in Sources */,
@@ -416,6 +430,7 @@
 				21D0540A1B3E3C3900DEA85B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		21D0540B1B3E3C3900DEA85B /* Build configuration list for PBXNativeTarget "SPActionSheetTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +439,7 @@
 				21D0540D1B3E3C3900DEA85B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
